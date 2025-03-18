@@ -117,7 +117,7 @@ const PaymentPage = ({ goToOrders, totalAmount }) => {
               <option value="Others">Other Banks</option>
             </select>
           </div>
-        )}
+        )}   
         {paymentMethod === "cod" && (
           <p className="cod-message">💵 Pay during delivery time.</p>
         )}
