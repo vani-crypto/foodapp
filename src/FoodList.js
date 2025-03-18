@@ -101,7 +101,7 @@ const FoodList = ({ category, onSelectFood, cartItems, onNavigateToCart }) => {
             </div>
           ))
         ) : (
-          <p>No food items found.</p>
+          <p>No food items found.</p>     
         )}
       </div>
 
