@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+}
+
+.app-title {
+  text-align: center;
+  font-size: 28px;
+  margin-top: 20px;
+  color: #333;
+}
+
+.nav-buttons {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.nav-btn {
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  background: #e44d26;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.nav-btn:hover {
+  background: #c63c1e;
+}

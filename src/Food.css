@@ -1,0 +1,41 @@
+/* Categories */
+.categories-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .category-card {
+    background: #ff9800;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  
+  /* Food List */
+  .food-list {
+    text-align: center;
+  }
+  
+  .food-item {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+  }
+  
+  /* Food Description */
+  .food-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .food-image img {
+    width: 300px;
+  }
+  
+  .food-details {
+    flex: 1;
+  }
+  

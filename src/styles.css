@@ -1,0 +1,331 @@
+/* 📦 Payment Page Styles */
+.payment-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  font-family: "Poppins", sans-serif;
+}
+
+.payment-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.section {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  background: #f9f9f9;
+}
+
+.section h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+}
+
+.input-group label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #444;
+  margin-bottom: 4px;
+}
+
+.input-group input,
+select {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: border 0.3s;
+}
+
+.input-group input:focus,
+select:focus {
+  border-color: #ff7f50;
+}
+
+.input-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-row .input-group {
+  width: 48%;
+}
+
+/* 🎨 Payment Options */
+.payment-options {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.payment-options button {
+  flex: 1;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  background: #ff7f50;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+  margin: 4px;
+}
+
+.payment-options button.selected {
+  background: #d35400;
+}
+
+.payment-options button:hover {
+  background: #e67e22;
+}
+
+/* 🏦 Net Banking & Cards */
+.card-details .input-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-details .input-group {
+  width: 48%;
+}
+
+/* 💵 Cash on Delivery */
+.cod-message {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  color: #2c3e50;
+  margin-top: 10px;
+}
+
+/* ✅ Pay Now Button */
+.pay-now-btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  background: #27ae60;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background 0.3s;
+}
+
+.pay-now-btn:hover {
+  background: #1e8449;
+}
+
+
+/* 📦 Orders Page Styles */
+.orders-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  font-family: "Poppins", sans-serif;
+}
+
+.orders-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* 🛍 Order List */
+.order-list {
+  list-style: none;
+  padding: 0;
+}
+
+.order-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f9f9f9;
+  margin: 12px 0;
+  padding: 12px;
+  border-radius: 10px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.order-item:hover {
+  transform: scale(1.02);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+.food-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.food-image:hover {
+  transform: scale(1.1);
+}
+
+.order-details-text {
+  flex-grow: 1;
+  margin-left: 15px;
+}
+
+.order-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #222;
+}
+
+.order-status {
+  font-size: 14px;
+  font-weight: 500;
+  color: #ff7f50;
+}
+
+.order-price {
+  font-size: 16px;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.order-rating {
+  font-size: 14px;
+  font-weight: 500;
+  color: #27ae60;
+}
+
+/* ⭐ Rate Button */
+.rate-btn {
+  padding: 8px 12px;
+  font-size: 14px;
+  font-weight: bold;
+  background: #ff7f50;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.rate-btn:hover {
+  background: #e67e22;
+}
+
+/* 📍 Order Popup */
+.order-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.order-popup-content {
+  background: #fff;
+  padding: 20px;
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.order-popup-content h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.order-popup-content p {
+  font-size: 14px;
+  color: #444;
+  margin: 4px 0;
+}
+
+/* ⭐ Rating Stars */
+.rating-stars {
+  margin: 10px 0;
+}
+
+.star {
+  font-size: 24px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.star:hover {
+  transform: scale(1.2);
+}
+
+.star.selected {
+  color: gold;
+}
+
+/* 🎤 Feedback Dropdown */
+.feedback-dropdown {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+}
+
+.feedback-dropdown:focus {
+  border-color: #ff7f50;
+}
+
+/* ✅ Submit & Close Buttons */
+.submit-btn,
+.close-btn {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.submit-btn {
+  background: #27ae60;
+  color: white;
+}
+
+.submit-btn:hover {
+  background: #1e8449;
+}
+
+.close-btn {
+  background: #e74c3c;
+  color: white;
+}
+
+.close-btn:hover {
+  background: #c0392b;
+}

@@ -1,0 +1,61 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #fff8e1;
+  margin: 0;
+  padding: 0;
+}
+
+.app-title {
+  text-align: center;
+  font-size: 30px;
+  color: #d84315;
+  margin: 25px 0;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.back-btn {
+  display: block;
+  margin: 20px auto;
+  padding: 12px 22px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background: #d84315;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.back-btn:hover {
+  background: #bf360c;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background: #d84315;
+  padding: 15px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav button {
+  background: white;
+  color: #d84315;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+nav button:hover {
+  background: #bf360c;
+  color: white;
+}
